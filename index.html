@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#dcecff">
+<title>Un detalle para Ingrid ♡</title>
+<style>
+:root{--blue:#cfe5ff;--pink:#f8d9e8;--ink:#25324a;--white:#fffafd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(145deg,#dcecff,#f9e2ef 58%,#fff8fc);color:var(--ink);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.petal{position:absolute;top:-12vh;font-size:20px;opacity:.48;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(120vh) rotate(300deg)}}
+main{position:relative;z-index:1;max-width:760px;margin:auto;padding:24px 16px 54px}
+header{text-align:center;padding:34px 8px 18px}
+.eyebrow{font:600 11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#7286a5}
+h1{font-size:clamp(38px,9vw,66px);font-weight:400;line-height:1.02;margin:14px 0;color:#263956}
+h1 span{color:#c77eaa;font-style:italic}
+.subtitle{font:15px Arial,sans-serif;color:#63738d;letter-spacing:.4px}
+.card{background:rgba(255,255,255,.74);border:1px solid rgba(255,255,255,.9);border-radius:28px;padding:24px;margin:18px 0;box-shadow:0 18px 50px rgba(83,107,148,.12);backdrop-filter:blur(8px)}
+.slide{display:none;animation:appear .8s ease both}.slide.active{display:block}
+@keyframes appear{from{opacity:0;transform:translateY(18px) scale(.99)}to{opacity:1;transform:none}}
+.photo{width:100%;max-height:570px;object-fit:cover;border-radius:20px;display:block;box-shadow:0 10px 30px #8da6c533}
+.caption{text-align:center;font-size:clamp(19px,4vw,26px);line-height:1.45;margin:22px 5px 8px}
+.small{font:13px/1.7 Arial,sans-serif;color:#6c7890;text-align:center}
+.nav{display:flex;justify-content:center;align-items:center;gap:16px;margin:18px 0 4px}
+button{border:0;border-radius:999px;padding:12px 22px;background:#344b70;color:white;font:14px Arial,sans-serif;cursor:pointer;box-shadow:0 7px 18px #344b7026}
+button.secondary{background:#fff;color:#425776;border:1px solid #dce5f2}
+.dots{font:12px Arial,sans-serif;color:#71809a;letter-spacing:4px}
+.flowerline{text-align:center;font-size:27px;letter-spacing:8px;margin:8px 0 18px}
+.dates{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:20px 0}
+.date{background:#f5e7f1;border-radius:18px;padding:14px 18px;text-align:center;min-width:135px}
+.date b{display:block;font-size:24px;color:#a75f91;font-weight:400}
+.date span{font:11px Arial,sans-serif;color:#64748b;letter-spacing:1px;text-transform:uppercase}
+footer{text-align:center;font:12px Arial,sans-serif;color:#75839a;padding:26px 5px}
+audio{width:100%;margin-top:12px}
+.music-note{font:12px/1.6 Arial,sans-serif;color:#72809a;text-align:center}
+@media(max-width:480px){.card{padding:16px;border-radius:23px}.photo{max-height:62vh}}
+</style>
+</head>
+<body>
+<div class="petals" aria-hidden="true" id="petals"></div>
+<main>
+<header>
+  <div class="eyebrow">un pequeño detalle para ti</div>
+  <h1>Para <span>Ingrid</span> ♡</h1>
+  <div class="subtitle">De Rodrigo, con cariño</div>
+  <div class="flowerline">🌷 🤍 🌸 🪻</div>
+</header>
+
+<section class="card">
+  <article class="slide active">
+    <p class="eyebrow" style="text-align:center">01 · una sorpresa</p>
+    <h2 class="caption">Quería regalarte algo diferente…<br>algo hecho con un poquito de cariño.</h2>
+    <p class="small">Desliza con los botones para descubrirlo.</p>
+  </article>
+  <article class="slide">
+    <p class="eyebrow" style="text-align:center">02 · una sonrisa</p>
+    <img class="photo" src="foto_ingrid.jpg" alt="Foto compartida para este detalle">
+    <p class="caption">Hay personas que hacen más bonito un día normal, simplemente siendo ellas. ♡</p>
+  </article>
+  <article class="slide">
+    <p class="eyebrow" style="text-align:center">03 · un recuerdo mío</p>
+    <img class="photo" src="foto_rodrigo.jpg" alt="Foto de Rodrigo">
+    <p class="caption">Y este pequeño detalle viene de mí, Rodrigo, para ti, Ingrid.</p>
+  </article>
+  <article class="slide">
+    <p class="eyebrow" style="text-align:center">04 · lo que quería decirte</p>
+    <h2 class="caption" style="font-size:clamp(26px,6vw,40px);color:#b46f9c">Nuestro primer mes</h2>
+    <p class="caption">Aunque todavía estamos conociéndonos y aún no hemos salido, me alegra mucho hablar contigo. Espero que este sea el comienzo de momentos bonitos, sin apuros y a nuestro ritmo.</p>
+    <div class="flowerline">🩵 🌷 🩷</div>
+  </article>
+  <article class="slide">
+    <p class="eyebrow" style="text-align:center">05 · dos fechas</p>
+    <h2 class="caption">Dos días especiales</h2>
+    <div class="dates">
+      <div class="date"><b>31 ENE</b><span>Tu cumpleaños, Ingrid</span></div>
+      <div class="date"><b>18 DIC</b><span>Mi cumpleaños, Rodrigo</span></div>
+    </div>
+    <p class="caption">Que nunca falten motivos para sonreír. 🌸</p>
+  </article>
+  <article class="slide">
+    <p class="eyebrow" style="text-align:center">06 · para ti</p>
+    <h2 class="caption" style="font-size:clamp(28px,7vw,44px)">Gracias por estar aquí, Ingrid.</h2>
+    <p class="caption">Ojalá este detalle te saque una sonrisa. Con cariño,<br><span style="color:#b46f9c;font-style:italic">Rodrigo ♡</span></p>
+    <div class="flowerline">🌷 🪻 🌸 🤍</div>
+  </article>
+  <div class="nav">
+    <button class="secondary" id="prev" type="button">Anterior</button>
+    <span class="dots" id="count">1 / 6</span>
+    <button id="next" type="button">Siguiente</button>
+  </div>
+</section>
+
+<section class="card">
+  <h2 class="caption" style="margin-top:0">Una melodía para acompañar ♫</h2>
+  <p class="music-note">Si tienes el archivo de audio que quieres usar, guárdalo en esta carpeta con el nombre <b>musica.mp3</b>. El reproductor aparecerá automáticamente. También puedes abrir la canción desde tu plataforma musical favorita.</p>
+  <audio id="player" controls preload="none" src="musica.mp3"></audio>
+  <p class="music-note">La música empieza solo cuando Ingrid toque reproducir.</p>
+</section>
+<footer>Hecho con cariño · Azul pastel, rosa y flores para Ingrid ♡</footer>
+</main>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let index=0;
+function show(n){index=(n+slides.length)%slides.length;slides.forEach((s,i)=>s.classList.toggle('active',i===index));document.getElementById('count').textContent=(index+1)+' / '+slides.length;document.getElementById('prev').style.visibility=index===0?'hidden':'visible';document.getElementById('next').textContent=index===slides.length-1?'Volver al inicio':'Siguiente'}
+document.getElementById('prev').addEventListener('click',()=>show(index-1));
+document.getElementById('next').addEventListener('click',()=>show(index===slides.length-1?0:index+1));
+show(0);
+const petalBox=document.getElementById('petals');
+for(let i=0;i<18;i++){let p=document.createElement('span');p.className='petal';p.textContent=['✿','❀','🌸'][i%3];p.style.left=(Math.random()*100)+'%';p.style.animationDuration=(13+Math.random()*15)+'s';p.style.animationDelay=(-Math.random()*24)+'s';p.style.fontSize=(13+Math.random()*13)+'px';petalBox.appendChild(p)}
+</script>
+</body>
+</html>
